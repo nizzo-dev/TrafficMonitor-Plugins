@@ -12,3 +12,7 @@ All notable changes to this plugin collection are documented here.
 
 - Reorganized the repository so every plugin has its own directory and README.
 - Changed releases from one combined archive to individual plugin ZIP files.
+
+## v1.0.2 - 2026-07-24
+
+- Expanded the functional description and intended-device information for every plugin.

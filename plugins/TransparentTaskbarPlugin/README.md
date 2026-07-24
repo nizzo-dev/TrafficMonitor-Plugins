@@ -1,6 +1,10 @@
 # TransparentTaskbarPlugin
 
-提供任务栏透明效果。
+为 Windows 任务栏提供透明效果，使任务栏视觉上更加简洁，并与桌面背景融合。
+
+## 功能说明
+
+插件通过 `TransparentTaskbarPlugin.ini` 保存运行设置，并依赖 `TaskbarAccentHook.dll` 提供任务栏外观处理。因此三个文件都必须保留在发布包指定的位置。
 
 ## 安装
 

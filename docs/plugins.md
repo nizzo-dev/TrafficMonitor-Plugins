@@ -6,7 +6,7 @@
 
 ### ClashVergeTrafficPlugin
 
-为 Clash Verge 提供流量相关信息。
+检测 Clash Verge 当前订阅的流量使用情况，并以百分比显示已用额度。
 
 所需文件：
 
@@ -18,7 +18,7 @@ plugins/ClashVergeTrafficPlugin/ClashVergeTrafficPlugin.dll
 
 ### CursorUsagePlugin
 
-提供光标使用相关信息。
+检测 Cursor 账号额度的使用情况，并以百分比显示使用进度。
 
 所需文件：
 
@@ -28,7 +28,7 @@ plugins/CursorUsagePlugin/CursorUsagePlugin.dll
 
 ### MchoseKeyboardBatteryPlugin
 
-为支持的 MCHOSE 键盘提供电量信息。
+主要面向迈从 K99 V3 键盘，实时显示键盘电量。
 
 所需文件：
 
@@ -38,7 +38,7 @@ plugins/MchoseKeyboardBatteryPlugin/MchoseKeyboardBatteryPlugin.dll
 
 ### PhoneBatteryPlugin
 
-为已连接手机提供电量信息。
+通过蓝牙连接手机后，实时显示手机电量。
 
 所需文件：
 
@@ -48,7 +48,7 @@ plugins/PhoneBatteryPlugin/PhoneBatteryPlugin.dll
 
 ### T1MouseBatteryPlugin
 
-为支持的 T1 鼠标提供电量信息。
+主要面向泰坦精英 T1 鼠标，实时显示鼠标电量。
 
 所需文件：
 
@@ -60,7 +60,7 @@ plugins/T1MouseBatteryPlugin/T1MouseBatteryPlugin.dll
 
 ### TransparentTaskbarPlugin
 
-控制任务栏透明效果。该插件需要同级 INI 文件和辅助 DLL。
+为 Windows 任务栏提供透明效果。该插件需要同级 INI 文件和辅助 DLL。
 
 所需文件：
 
