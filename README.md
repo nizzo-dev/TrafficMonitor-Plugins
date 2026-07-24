@@ -1,39 +1,45 @@
 # TrafficMonitor Plugins
 
-Independent plugins for [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor).
+这是一个面向 [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) 的独立插件集合。仓库只包含可运行的插件文件、配置和文档，不包含 TrafficMonitor 主程序、调试符号或链接产物。
 
-This repository contains release-ready plugin files grouped by purpose. It does not include TrafficMonitor itself, debug symbols, import libraries, or other build artifacts.
+## 下载
 
-## Requirements
+请从 [Releases](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases) 下载发布包。每个发布包均包含适用于 TrafficMonitor x64 Lite 的全部插件。
 
-- TrafficMonitor x64 Lite release
-- Windows 10 or later, unless a plugin specifies otherwise
+详细插件目录与用途见 [下载索引](download/plugin_download.md)。
 
-## Installation
+## 安装
 
-1. Download the plugin files from the latest release.
-2. Copy the files for the desired plugin into TrafficMonitor's `plugins` directory.
-3. Restart TrafficMonitor.
+1. 下载并解压发布包。
+2. 将需要的插件文件复制到 TrafficMonitor 的 `plugins` 目录。
+3. 重启 TrafficMonitor。
+4. 打开“选项 - 常规设置 - 插件管理”，确认插件已加载并启用。
+5. 如需在任务栏显示插件项目，在任务栏窗口右键打开“显示设置”，勾选对应项目。
 
-For the full layout and plugin-specific notes, see [docs/installation.md](docs/installation.md) and [docs/plugins.md](docs/plugins.md).
+透明任务栏插件另有辅助 DLL，必须保留发布包内的目录结构。完整步骤见 [安装说明](docs/installation.md)。
 
-## Plugin Categories
+## 插件分类
 
-| Category | Plugins |
+| 分类 | 插件 |
 | --- | --- |
-| Network traffic | ClashVergeTrafficPlugin |
-| Peripheral status | CursorUsagePlugin, MchoseKeyboardBatteryPlugin, PhoneBatteryPlugin, T1MouseBatteryPlugin |
-| System UI | TransparentTaskbarPlugin |
+| 网络流量 | ClashVergeTrafficPlugin |
+| 外设状态 | CursorUsagePlugin、MchoseKeyboardBatteryPlugin、PhoneBatteryPlugin、T1MouseBatteryPlugin |
+| 系统界面 | TransparentTaskbarPlugin |
 
-## Repository Layout
+## 更新
+
+当前发布版本和变更记录见 [CHANGELOG.md](CHANGELOG.md)。如果将插件提交到官方插件索引，可参考 [更新指南](docs/update-guide.md) 中的 `plugins_version.xml` 说明。
+
+## 仓库结构
 
 ```text
-network/                 Network-traffic plugins
-peripherals/             Keyboard, mouse, phone, and cursor plugins
-system-ui/               System appearance plugins and dependencies
-docs/                    Installation and plugin reference
+network/                 网络流量插件
+peripherals/             键盘、鼠标、手机和光标相关插件
+system-ui/               系统外观插件及其依赖
+download/                下载索引
+docs/                    安装、插件说明和更新指南
 ```
 
-## License
+## 许可证
 
-No license has been selected yet. Do not redistribute or modify these plugins until a license is added.
+本仓库采用 [MIT License](LICENSE)。

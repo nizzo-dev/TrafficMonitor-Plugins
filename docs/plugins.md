@@ -1,24 +1,24 @@
-# Plugin Reference
+# 插件说明
 
-## Network Traffic
+## 网络流量
 
 ### ClashVergeTrafficPlugin
 
-Provides traffic-related information for Clash Verge.
+为 Clash Verge 提供流量相关信息。
 
-Required file:
+所需文件：
 
 ```text
 network/ClashVergeTrafficPlugin.dll
 ```
 
-## Peripheral Status
+## 外设状态
 
 ### CursorUsagePlugin
 
-Provides cursor usage information.
+提供光标使用相关信息。
 
-Required file:
+所需文件：
 
 ```text
 peripherals/CursorUsagePlugin.dll
@@ -26,9 +26,9 @@ peripherals/CursorUsagePlugin.dll
 
 ### MchoseKeyboardBatteryPlugin
 
-Provides battery information for supported MCHOSE keyboards.
+为支持的 MCHOSE 键盘提供电量信息。
 
-Required file:
+所需文件：
 
 ```text
 peripherals/MchoseKeyboardBatteryPlugin.dll
@@ -36,9 +36,9 @@ peripherals/MchoseKeyboardBatteryPlugin.dll
 
 ### PhoneBatteryPlugin
 
-Provides battery information for a connected phone.
+为已连接手机提供电量信息。
 
-Required file:
+所需文件：
 
 ```text
 peripherals/PhoneBatteryPlugin.dll
@@ -46,21 +46,21 @@ peripherals/PhoneBatteryPlugin.dll
 
 ### T1MouseBatteryPlugin
 
-Provides battery information for a supported T1 mouse.
+为支持的 T1 鼠标提供电量信息。
 
-Required file:
+所需文件：
 
 ```text
 peripherals/T1MouseBatteryPlugin.dll
 ```
 
-## System UI
+## 系统界面
 
 ### TransparentTaskbarPlugin
 
-Controls taskbar transparency. The plugin requires its adjacent INI file and helper DLL.
+控制任务栏透明效果。该插件需要同级 INI 文件和辅助 DLL。
 
-Required files:
+所需文件：
 
 ```text
 system-ui/TransparentTaskbarPlugin.dll

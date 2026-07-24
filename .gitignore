@@ -8,3 +8,6 @@
 *.log
 *.bak
 history_traffic.dat
+
+# Locally generated release archives
+dist/
