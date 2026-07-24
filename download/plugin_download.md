@@ -1,14 +1,14 @@
 # 插件下载
 
-请从 [Releases](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases) 下载最新的 `TrafficMonitor-Plugins-vX.Y.Z.zip` 发布包。发布包面向 TrafficMonitor x64 Lite，包含以下插件：
+所有发布包面向 TrafficMonitor x64 Lite。请按需下载单个 ZIP；无需下载其他插件。
 
-| 插件 | 分类 | 发布文件 |
-| --- | --- | --- |
-| ClashVergeTrafficPlugin | 网络流量 | `network/ClashVergeTrafficPlugin.dll` |
-| CursorUsagePlugin | 外设状态 | `peripherals/CursorUsagePlugin.dll` |
-| MchoseKeyboardBatteryPlugin | 外设状态 | `peripherals/MchoseKeyboardBatteryPlugin.dll` |
-| PhoneBatteryPlugin | 外设状态 | `peripherals/PhoneBatteryPlugin.dll` |
-| T1MouseBatteryPlugin | 外设状态 | `peripherals/T1MouseBatteryPlugin.dll` |
-| TransparentTaskbarPlugin | 系统界面 | `system-ui/` 下的全部文件 |
+| 插件 | 分类 | 下载 | 说明 |
+| --- | --- | --- | --- |
+| ClashVergeTrafficPlugin | 网络流量 | [ZIP](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases/download/v1.0.1/ClashVergeTrafficPlugin-v1.0.1.zip) | [README](../plugins/ClashVergeTrafficPlugin/README.md) |
+| CursorUsagePlugin | 外设状态 | [ZIP](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases/download/v1.0.1/CursorUsagePlugin-v1.0.1.zip) | [README](../plugins/CursorUsagePlugin/README.md) |
+| MchoseKeyboardBatteryPlugin | 外设状态 | [ZIP](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases/download/v1.0.1/MchoseKeyboardBatteryPlugin-v1.0.1.zip) | [README](../plugins/MchoseKeyboardBatteryPlugin/README.md) |
+| PhoneBatteryPlugin | 外设状态 | [ZIP](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases/download/v1.0.1/PhoneBatteryPlugin-v1.0.1.zip) | [README](../plugins/PhoneBatteryPlugin/README.md) |
+| T1MouseBatteryPlugin | 外设状态 | [ZIP](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases/download/v1.0.1/T1MouseBatteryPlugin-v1.0.1.zip) | [README](../plugins/T1MouseBatteryPlugin/README.md) |
+| TransparentTaskbarPlugin | 系统界面 | [ZIP](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases/download/v1.0.1/TransparentTaskbarPlugin-v1.0.1.zip) | [README](../plugins/TransparentTaskbarPlugin/README.md) |
 
 安装方法见 [安装说明](../docs/installation.md)，各插件详细用途见 [插件说明](../docs/plugins.md)。

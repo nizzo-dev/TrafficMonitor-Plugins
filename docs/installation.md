@@ -8,7 +8,7 @@
 
 ## 常规插件
 
-将每个插件 DLL 复制到 TrafficMonitor 的 `plugins` 目录：
+解压单个插件 ZIP 后，将其中的 `plugins` 目录合并到 TrafficMonitor 安装目录：
 
 ```text
 TrafficMonitor/
@@ -22,7 +22,7 @@ TrafficMonitor/
 
 ## TransparentTaskbarPlugin
 
-该插件包含辅助 DLL，安装时必须保留以下结构：
+该插件 ZIP 中已包含辅助 DLL，解压时必须保留以下结构：
 
 ```text
 TrafficMonitor/

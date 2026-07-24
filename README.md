@@ -4,7 +4,7 @@
 
 ## 下载
 
-请从 [Releases](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases) 下载发布包。每个发布包均包含适用于 TrafficMonitor x64 Lite 的全部插件。
+请从 [Releases](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases) 按需下载插件包。每个 ZIP 仅包含一个插件及其运行所需文件。
 
 详细插件目录与用途见 [下载索引](download/plugin_download.md)。
 
@@ -20,11 +20,14 @@
 
 ## 插件分类
 
-| 分类 | 插件 |
-| --- | --- |
-| 网络流量 | ClashVergeTrafficPlugin |
-| 外设状态 | CursorUsagePlugin、MchoseKeyboardBatteryPlugin、PhoneBatteryPlugin、T1MouseBatteryPlugin |
-| 系统界面 | TransparentTaskbarPlugin |
+| 插件 | 分类 | 功能 | 说明与下载 |
+| --- | --- | --- | --- |
+| ClashVergeTrafficPlugin | 网络流量 | 提供 Clash Verge 流量相关信息。 | [查看](plugins/ClashVergeTrafficPlugin/README.md) |
+| CursorUsagePlugin | 外设状态 | 提供光标使用相关信息。 | [查看](plugins/CursorUsagePlugin/README.md) |
+| MchoseKeyboardBatteryPlugin | 外设状态 | 提供支持的 MCHOSE 键盘电量信息。 | [查看](plugins/MchoseKeyboardBatteryPlugin/README.md) |
+| PhoneBatteryPlugin | 外设状态 | 提供已连接手机的电量信息。 | [查看](plugins/PhoneBatteryPlugin/README.md) |
+| T1MouseBatteryPlugin | 外设状态 | 提供支持的 T1 鼠标电量信息。 | [查看](plugins/T1MouseBatteryPlugin/README.md) |
+| TransparentTaskbarPlugin | 系统界面 | 提供任务栏透明效果。 | [查看](plugins/TransparentTaskbarPlugin/README.md) |
 
 ## 更新
 
@@ -33,9 +36,7 @@
 ## 仓库结构
 
 ```text
-network/                 网络流量插件
-peripherals/             键盘、鼠标、手机和光标相关插件
-system-ui/               系统外观插件及其依赖
+plugins/                 每个插件独立的二进制文件和说明
 download/                下载索引
 docs/                    安装、插件说明和更新指南
 ```

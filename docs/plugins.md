@@ -1,5 +1,7 @@
 # 插件说明
 
+每个插件的安装包、依赖和单独使用说明均位于 `plugins/<插件名>/README.md`。本页仅保留总览。
+
 ## 网络流量
 
 ### ClashVergeTrafficPlugin
@@ -9,7 +11,7 @@
 所需文件：
 
 ```text
-network/ClashVergeTrafficPlugin.dll
+plugins/ClashVergeTrafficPlugin/ClashVergeTrafficPlugin.dll
 ```
 
 ## 外设状态
@@ -21,7 +23,7 @@ network/ClashVergeTrafficPlugin.dll
 所需文件：
 
 ```text
-peripherals/CursorUsagePlugin.dll
+plugins/CursorUsagePlugin/CursorUsagePlugin.dll
 ```
 
 ### MchoseKeyboardBatteryPlugin
@@ -31,7 +33,7 @@ peripherals/CursorUsagePlugin.dll
 所需文件：
 
 ```text
-peripherals/MchoseKeyboardBatteryPlugin.dll
+plugins/MchoseKeyboardBatteryPlugin/MchoseKeyboardBatteryPlugin.dll
 ```
 
 ### PhoneBatteryPlugin
@@ -41,7 +43,7 @@ peripherals/MchoseKeyboardBatteryPlugin.dll
 所需文件：
 
 ```text
-peripherals/PhoneBatteryPlugin.dll
+plugins/PhoneBatteryPlugin/PhoneBatteryPlugin.dll
 ```
 
 ### T1MouseBatteryPlugin
@@ -51,7 +53,7 @@ peripherals/PhoneBatteryPlugin.dll
 所需文件：
 
 ```text
-peripherals/T1MouseBatteryPlugin.dll
+plugins/T1MouseBatteryPlugin/T1MouseBatteryPlugin.dll
 ```
 
 ## 系统界面
@@ -63,7 +65,7 @@ peripherals/T1MouseBatteryPlugin.dll
 所需文件：
 
 ```text
-system-ui/TransparentTaskbarPlugin.dll
-system-ui/TransparentTaskbarPlugin.ini
-system-ui/TransparentTaskbarPlugin/TaskbarAccentHook.dll
+plugins/TransparentTaskbarPlugin/TransparentTaskbarPlugin.dll
+plugins/TransparentTaskbarPlugin/TransparentTaskbarPlugin.ini
+plugins/TransparentTaskbarPlugin/TaskbarAccentHook.dll
 ```
