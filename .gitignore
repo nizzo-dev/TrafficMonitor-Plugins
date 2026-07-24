@@ -1,0 +1,10 @@
+# Build and debugging artifacts
+*.exp
+*.lib
+*.pdb
+*.ilk
+
+# Local runtime state
+*.log
+*.bak
+history_traffic.dat
