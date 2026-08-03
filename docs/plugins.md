@@ -6,7 +6,7 @@
 
 ### ClashVergeTrafficPlugin
 
-检测 Clash Verge 当前订阅的流量使用情况，并以百分比显示已用额度。
+显示 Clash Verge 当前订阅用量，以及排除 `DIRECT`、`REJECT` 后仅经过代理节点的实时上传、下载速率。默认通过 Clash Verge 的 `verge-mihomo` 命名管道读取，无需开启 TCP 外部控制器。
 
 所需文件：
 

@@ -4,7 +4,7 @@
 
 | 插件 | 分类 | 下载 | 说明 |
 | --- | --- | --- | --- |
-| ClashVergeTrafficPlugin | 网络流量 | [ZIP](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases/download/v1.0.2/ClashVergeTrafficPlugin-v1.0.2.zip) | [README](../plugins/ClashVergeTrafficPlugin/README.md) |
+| ClashVergeTrafficPlugin | 网络流量 | [ZIP](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases/download/v1.0.3/ClashVergeTrafficPlugin-v1.0.3.zip) | [README](../plugins/ClashVergeTrafficPlugin/README.md) |
 | CursorUsagePlugin | 账号额度 | [ZIP](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases/download/v1.0.2/CursorUsagePlugin-v1.0.2.zip) | [README](../plugins/CursorUsagePlugin/README.md) |
 | MchoseKeyboardBatteryPlugin | 外设电量 | [ZIP](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases/download/v1.0.2/MchoseKeyboardBatteryPlugin-v1.0.2.zip) | [README](../plugins/MchoseKeyboardBatteryPlugin/README.md) |
 | PhoneBatteryPlugin | 外设电量 | [ZIP](https://github.com/nizzo-dev/TrafficMonitor-Plugins/releases/download/v1.0.2/PhoneBatteryPlugin-v1.0.2.zip) | [README](../plugins/PhoneBatteryPlugin/README.md) |

@@ -22,7 +22,7 @@
 
 | 插件 | 分类 | 功能 | 说明与下载 |
 | --- | --- | --- | --- |
-| ClashVergeTrafficPlugin | 网络流量 | 读取 Clash Verge 当前订阅的流量使用情况，并以百分比显示已用额度。 | [查看](plugins/ClashVergeTrafficPlugin/README.md) |
+| ClashVergeTrafficPlugin | 网络流量 | 显示 Clash Verge 订阅用量及仅经过代理节点的实时上传、下载速率。 | [查看](plugins/ClashVergeTrafficPlugin/README.md) |
 | CursorUsagePlugin | 账号额度 | 读取 Cursor 账号的额度使用情况，并以百分比显示使用进度。 | [查看](plugins/CursorUsagePlugin/README.md) |
 | MchoseKeyboardBatteryPlugin | 外设电量 | 面向迈从 K99 V3 键盘，实时显示键盘电量。 | [查看](plugins/MchoseKeyboardBatteryPlugin/README.md) |
 | PhoneBatteryPlugin | 外设电量 | 通过蓝牙连接手机后，实时显示手机电量。 | [查看](plugins/PhoneBatteryPlugin/README.md) |

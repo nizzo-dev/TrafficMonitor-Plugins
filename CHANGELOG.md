@@ -16,3 +16,8 @@ All notable changes to this plugin collection are documented here.
 ## v1.0.2 - 2026-07-24
 
 - Expanded the functional description and intended-device information for every plugin.
+
+## v1.0.3 - 2026-08-03
+
+- Added live proxy-only upload and download rates to ClashVergeTrafficPlugin.
+- Added direct Clash Verge `verge-mihomo` named-pipe support without requiring the TCP external controller.
