@@ -21,3 +21,9 @@ All notable changes to this plugin collection are documented here.
 
 - Added live proxy-only upload and download rates to ClashVergeTrafficPlugin.
 - Added direct Clash Verge `verge-mihomo` named-pipe support without requiring the TCP external controller.
+
+## v1.0.4 - 2026-10-14
+
+- ClashVergeTrafficPlugin: discover Clash Verge 2.5.4 `verge-mihomo-production-<hash>` pipes when the legacy pipe is unavailable; fall back to TCP only when the controller is listening.
+- ClashVergeTrafficPlugin: yellow/red speed badges above 512 KB/s and 1 MB/s.
+- CursorUsagePlugin: show total tokens used in the current billing cycle on hover and in plugin options.

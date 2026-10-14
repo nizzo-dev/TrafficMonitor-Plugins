@@ -6,7 +6,7 @@
 
 ### ClashVergeTrafficPlugin
 
-显示 Clash Verge 当前订阅用量，以及排除 `DIRECT`、`REJECT` 后仅经过代理节点的实时上传、下载速率。默认通过 Clash Verge 的 `verge-mihomo` 命名管道读取，无需开启 TCP 外部控制器。
+显示 Clash Verge 当前订阅用量，以及排除 `DIRECT`、`REJECT` 后仅经过代理节点的实时上传、下载速率。优先读取配置中的命名管道；Clash Verge 2.5.4 服务模式管道名变化时，会发现当前的 `verge-mihomo-production` 管道，无需开启 TCP 外部控制器。
 
 所需文件：
 

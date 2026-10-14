@@ -17,4 +17,4 @@ plugins/CursorUsagePlugin.dll
 
 重启 TrafficMonitor 后，在“选项 - 常规设置 - 插件管理”中启用插件。
 
-插件项目加载后会以百分比显示 Cursor 账号额度的使用进度。
+插件项目加载后会以百分比显示 Cursor 账号额度的使用进度。鼠标悬停和插件选项中还会显示本计费周期已消耗的 Token 合计（输入、输出和缓存）。

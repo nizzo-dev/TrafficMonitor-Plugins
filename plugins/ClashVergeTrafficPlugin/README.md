@@ -7,7 +7,9 @@
 - Clash Verge 中存在可读取使用情况的当前订阅。
 - TrafficMonitor 与 Clash Verge 均处于可正常运行状态。
 
-无需开启 Clash Verge 的 TCP 外部控制器；插件默认通过 `verge-mihomo` 命名管道读取连接数据，并在可用时回退到 TCP 控制端口。
+无需开启 Clash Verge 的 TCP 外部控制器。插件优先读取配置中的命名管道；Clash Verge 2.5.4 服务模式的管道名会变成 `verge-mihomo-production-<hash>`，旧管道不存在时会发现当前生产管道，并仅在控制端口确实监听时回退到 TCP。
+
+速率超过 512 KB/s 时数值显示黄色提示徽章，超过 1 MB/s 时显示红色提示徽章。
 
 ## 安装
 
